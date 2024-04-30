@@ -1,0 +1,8 @@
+<app-header></app-header>
+
+<div class="app__body">
+    <div *ngFor="let book of books$ | async">
+        {{ book.book_title }}
+        {{ book.image_url }}
+    </div>
+</div>
