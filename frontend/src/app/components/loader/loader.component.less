@@ -1,0 +1,23 @@
+@import "colors";
+@import "sizes";
+
+.loader {
+    display: flex;
+    justify-content: center;
+    gap: @size-common;
+    height: 100%;
+
+    &__animation {
+        border: @size-s solid @asbestos;
+        border-radius: 50%;
+        border-top: @size-s solid @amethyst;
+        width: 60px;
+        height: 60px;
+        animation: spin 1.5s linear infinite;
+    }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg)}
+    100% { transform: rotate(360deg)}
+}

@@ -1,13 +1,14 @@
 from marshmallow import Schema, fields
 from sqlalchemy import Column, String, Integer
 
-from .entity import Entity, Base
+from .entity import Base
 
 
-class Book(Entity, Base):
-    __tablename__ = "books"
+class Book(Base):
+    __tablename__ = "processed_books"
 
     id = Column(Integer, primary_key=True)
+    index = Column(Integer)
     isbn = Column(String)
     book_title = Column(String)
     book_author = Column(String)
@@ -16,7 +17,6 @@ class Book(Entity, Base):
     image_url = Column(String)
 
     def __init__(self, isbn, book_title, book_author, year_of_publication, publisher, image_url, created_by):
-        Entity.__init__(self, created_by)
         self.isbn = isbn
         self.book_title = book_title
         self.book_author = book_author

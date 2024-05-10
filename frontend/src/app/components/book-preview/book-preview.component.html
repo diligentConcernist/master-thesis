@@ -1,0 +1,7 @@
+<div class="book-preview__pic">
+    <img #img (load)="replaceSrc()" [src]="book.image_url" alt="Book Cover" class="book-preview__pic-img">
+</div>
+<div class="book-preview__info">
+    <p>{{ book.book_title }}</p>
+    <p><span class="_gray">Author:</span> {{ book.book_author }}</p>
+</div>

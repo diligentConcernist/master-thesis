@@ -1,0 +1,26 @@
+@import "sizes";
+
+.app {
+    &-root {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+    }
+    &-body {
+        flex-grow: 1;
+        padding: 2 * @size-xl;
+
+        &._loading {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__book-gallery {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            row-gap: @size-common;
+        }
+    }
+}
