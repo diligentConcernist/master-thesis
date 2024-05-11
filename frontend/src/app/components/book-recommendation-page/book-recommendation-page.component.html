@@ -1,0 +1,28 @@
+<div *ngIf="recommendation$ | async as recommendation; else loadingTemplate" class="app-body">
+    <ng-container [ngTemplateOutletContext]="{ recommendation: recommendation }" [ngTemplateOutlet]="booksTemplate"></ng-container>
+</div>
+
+<ng-template #booksTemplate let-recommendation=recommendation>
+    <ng-container *ngIf="recommendation.is_rare_book">
+        <p>This book does not have any proper recommendations, maybe these books will be interesting?</p>
+        <div class="app-body__book-gallery">
+            <ng-container *ngFor="let book of recommendation.recommended_books">
+                <book-preview [book]="book" [isSimpleMode]="true"></book-preview>
+            </ng-container>
+        </div>
+    </ng-container>
+    <ng-container *ngIf="!recommendation.is_rare_book">
+        <p>Recommended books:</p>
+        <div class="app-body__book-gallery">
+            <ng-container *ngFor="let book of recommendation.recommended_books">
+                <book-preview [book]="book" [isSimpleMode]="true"></book-preview>
+            </ng-container>
+        </div>
+    </ng-container>
+</ng-template>
+
+<ng-template #loadingTemplate>
+    <div class="app-body _loading">
+        <loader></loader>
+    </div>
+</ng-template>

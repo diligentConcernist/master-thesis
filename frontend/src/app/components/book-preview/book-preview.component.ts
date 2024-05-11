@@ -2,8 +2,11 @@ import {
     ChangeDetectionStrategy,
     Component,
     ElementRef,
+    EventEmitter,
     HostBinding,
+    HostListener,
     Input,
+    Output,
     ViewChild,
     ViewEncapsulation
 } from "@angular/core";
@@ -20,9 +23,16 @@ import { Book } from "../../models/book.model";
 export class BookPreviewComponent {
     @HostBinding("class.book-preview") hostClass: boolean = true;
 
+    @Input() isSimpleMode: boolean;
+
     @ViewChild("img") image: ElementRef;
 
     @Input() book: Book;
+    @Output() onBookClick: EventEmitter<Book> = new EventEmitter<Book>();
+
+    @HostListener("click") onClick(): void {
+        this.onBookClick.emit(this.book);
+    }
 
     public replaceSrc(): void {
         if (this.image.nativeElement.width < 10) {

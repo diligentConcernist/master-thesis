@@ -1,0 +1,28 @@
+id;book_title;number_of_votes;average_ratings;image_url;popularity
+0;Harry Potter and the Prisoner of Azkaban (Book 3);277;9.04332129963899;http://images.amazon.com/images/P/0439136350.01.LZZZZZZZ.jpg;9.016361453673712
+1;To Kill a Mockingbird;267;8.97752808988764;http://images.amazon.com/images/P/0446310786.01.LZZZZZZZ.jpg;8.950786507117598
+2;Harry Potter and the Sorcerer's Stone (Harry Potter (Paperback));315;8.936507936507937;http://images.amazon.com/images/P/059035342X.01.LZZZZZZZ.jpg;8.914418531049957
+3;Harry Potter and the Chamber of Secrets (Book 2);326;8.840490797546012;http://images.amazon.com/images/P/0439064872.01.LZZZZZZZ.jpg;8.820585891045276
+4;Tuesdays with Morrie: An Old Man, a Young Man, and Life's Greatest Lesson;250;8.588;http://images.amazon.com/images/P/0385484518.01.LZZZZZZZ.jpg;8.567113450729359
+5;The Secret Life of Bees;406;8.47783251231527;http://images.amazon.com/images/P/0142001740.01.LZZZZZZZ.jpg;8.46621394145009
+6;The Da Vinci Code;494;8.43927125506073;http://images.amazon.com/images/P/0385504209.01.LZZZZZZZ.jpg;8.43008803594386
+7;The Lovely Bones: A Novel;707;8.185289957567186;http://images.amazon.com/images/P/0316666343.01.LZZZZZZZ.jpg;8.180637542044925
+8;The Red Tent (Bestselling Backlist);383;8.182767624020888;http://images.amazon.com/images/P/0312195516.01.LZZZZZZZ.jpg;8.174262706020585
+9;Where the Heart Is (Oprah's Book Club (Paperback));295;8.142372881355932;http://images.amazon.com/images/P/0446672211.01.LZZZZZZZ.jpg;8.132046433119955
+10;Life of Pi;336;8.080357142857142;http://images.amazon.com/images/P/0151008116.01.LZZZZZZZ.jpg;8.072181612715504
+11;Angels & Demons;310;8.016129032258064;http://images.amazon.com/images/P/0671027360.01.LZZZZZZZ.jpg;8.008298190272972
+12;Girl with a Pearl Earring;278;7.982014388489208;http://images.amazon.com/images/P/0452282152.01.LZZZZZZZ.jpg;7.973900812494652
+13;The Notebook;293;7.897610921501706;http://images.amazon.com/images/P/0446605239.01.LZZZZZZZ.jpg;7.891321912536868
+14;Divine Secrets of the Ya-Ya Sisterhood: A Novel;323;7.876160990712075;http://images.amazon.com/images/P/0060928336.01.LZZZZZZZ.jpg;7.8707741766341055
+15;Timeline;263;7.870722433460076;http://images.amazon.com/images/P/0345417623.01.LZZZZZZZ.jpg;7.864231081850696
+16;Snow Falling on Cedars;275;7.829090909090909;http://images.amazon.com/images/P/0151001006.01.LZZZZZZZ.jpg;7.823621178342809
+17;The Catcher in the Rye;265;7.7018867924528305;http://images.amazon.com/images/P/0316769487.01.LZZZZZZZ.jpg;7.698570110874024
+18;Bridget Jones's Diary;377;7.625994694960212;http://images.amazon.com/images/P/0330332775.01.LZZZZZZZ.jpg;7.6246437956439435
+19;The Testament;261;7.517241379310345;http://images.amazon.com/images/P/0440234743.01.LZZZZZZZ.jpg;7.5173456012631075
+20;The Pilot's Wife : A Novel;272;7.5036764705882355;http://images.amazon.com/images/P/0316601950.01.LZZZZZZZ.jpg;7.504021407711143
+21;Summer Sisters;257;7.494163424124514;http://images.amazon.com/images/P/0385324057.01.LZZZZZZZ.jpg;7.494709656244224
+22;The Nanny Diaries: A Novel;393;7.43765903307888;http://images.amazon.com/images/P/0312278586.01.LZZZZZZZ.jpg;7.438728467175846
+23;A Painted House;366;7.398907103825136;http://images.amazon.com/images/P/044023722X.01.LZZZZZZZ.jpg;7.40057663055522
+24;The Summons;309;7.275080906148867;http://images.amazon.com/images/P/0440241073.01.LZZZZZZZ.jpg;7.279025254573206
+25;The Girls' Guide to Hunting and Fishing;259;6.945945945945946;http://images.amazon.com/images/P/0140293248.01.LZZZZZZZ.jpg;6.956870946727221
+26;Wild Animus;581;4.3907056798623065;http://images.amazon.com/images/P/0971880107.01.LZZZZZZZ.jpg;4.41742991456653

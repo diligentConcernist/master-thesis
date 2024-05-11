@@ -2,6 +2,6 @@
     <img #img (load)="replaceSrc()" [src]="book.image_url" alt="Book Cover" class="book-preview__pic-img">
 </div>
 <div class="book-preview__info">
-    <p>{{ book.book_title }}</p>
-    <p><span class="_gray">Author:</span> {{ book.book_author }}</p>
+    <p>{{ book.book_title }}<span *ngIf="!isSimpleMode"> by {{ book.book_author }}</span> </p>
+    <p><span class="_gray">Rating:</span> {{ book.book_rating ?? book.average_ratings | number : "1.2-2" }}</p>
 </div>

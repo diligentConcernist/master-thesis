@@ -6,4 +6,6 @@ export interface Book {
     isbn: string;
     publisher: string;
     year_of_publication: number;
+    book_rating?: number;
+    average_ratings?: number;
 }

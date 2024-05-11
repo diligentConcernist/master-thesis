@@ -14,14 +14,20 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatInputModule } from "@angular/material/input";
 import { CommonModule } from "@angular/common";
 import { ReactiveFormsModule } from "@angular/forms";
+import { MainPageComponent } from "./components/main-page/main-page.component";
+import {
+    BookRecommendationPageComponent
+} from "./components/book-recommendation-page/book-recommendation-page.component";
 
 @NgModule({
     declarations: [
         AppComponent,
         AppFooterComponent,
         AppHeaderComponent,
+        BookRecommendationPageComponent,
         BookPreviewComponent,
         LoaderComponent,
+        MainPageComponent
     ],
     imports: [
         BrowserModule,

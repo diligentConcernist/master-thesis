@@ -1,24 +1,5 @@
 <app-header></app-header>
 
-<div *ngIf="books$ | async; else loadingTemplate" class="app-body">
-    <ng-container [ngTemplateOutlet]="booksTemplate"></ng-container>
-</div>
-
-<ng-template #booksTemplate>
-    <div class="app-body__search-bar">
-        <mat-form-field>
-                <input matInput placeholder="Search by Book Title">
-        </mat-form-field>
-    </div>
-    <div class="app-body__book-gallery">
-        <ng-container *ngFor="let book of books$ | async">
-            <book-preview [book]="book"></book-preview>
-        </ng-container>
-    </div>
-</ng-template>
-
-<ng-template #loadingTemplate>
-    <loader></loader>
-</ng-template>
+<router-outlet></router-outlet>
 
 <app-footer></app-footer>
